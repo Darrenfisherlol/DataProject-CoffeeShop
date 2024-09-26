@@ -1,0 +1,164 @@
+{
+    "Product":{
+        "Drinks":["Hot Cocoa","Espresso", "Ristretto", "Americano", "Latte", "Cappuccino", "Macchiato", "Cortado", "Mocha", "Flat White", "Affogato","Turkish Coffee", "Cold Brew", "Nitro Brew", "Iced Coffee", "Frappe", "Doppio", "Caffe Lungo", "Cafe au Lait"],
+        "Cost":[4.5,3,3.5,4,5.5,3.75,4.25,3.25,4,3.5,6.5,3,5.5,6.5,5,7,5.5,4,4]
+    },
+    "Store":{
+        "One":{
+            "Name":"South Austin Drive",
+            "Address":"102 South Austin Drive",
+            "City":"Austin",
+            "Texas":"Texas",
+            "Zip Code":"72034"
+        },
+        "Two":{
+            "Name":"Western Drive",
+            "Address":"111 Western Drive",
+            "City":"Houston",
+            "Texas":"Texas",
+            "Zip Code":"99345"
+        },
+        "Three":{
+            "Name":"North Lake",
+            "Address":"880 North Lake Drive",
+            "City":"Dallas",
+            "Texas":"Texas",
+            "Zip Code":"14783"
+        }       
+    },
+    "Vendor":{
+        "":""
+    },
+    "RawInput":{
+        "":""
+    },
+    "Payment":{
+        "Card":{
+            "Card1":{
+                "Name":"Master Card",
+                "Fee":".019"
+            },
+            "Card2":{
+                "Name":"Visa",
+                "Fee":".022"
+            },
+            "Card3":{
+                "Name":"Amex",
+                "Fee":".03"
+            }
+        },
+        "Cash":{
+            "Name":"Cash",
+            "Fee":"0.00"
+        }
+    },
+    "Employee":{
+        "StoreOne":{
+            "one":{
+                "EmployeeID":"1",
+                "ManagerID":"Null",
+                "FirstName":"Tom",
+                "LastName":"Bates",
+                "StoreID":"1"
+            },
+            "two":{
+                "EmployeeID":"2",
+                "ManagerID":"1",
+                "FirstName":"Alex",
+                "LastName":"Dune",
+                "StoreID":"1"
+            },
+            "three":{
+                "EmployeeID":"3",
+                "ManagerID":"1",
+                "FirstName":"Frank",
+                "LastName":"Watts",
+                "StoreID":"1"
+            },
+            "four":{
+                "EmployeeID":"4",
+                "ManagerID":"1",
+                "FirstName":"Daniel",
+                "LastName":"Farmer",
+                "StoreID":"1"
+            }
+            
+        },
+        "StoreTwo":{
+            "one":{
+                "EmployeeID":"5",
+                "ManagerID":"Null",
+                "FirstName":"Toby",
+                "LastName":"Harts",
+                "StoreID":"2"
+            },
+            "two":{
+                "EmployeeID":"6",
+                "ManagerID":"5",
+                "FirstName":"Ivan",
+                "LastName":"Martin",
+                "StoreID":"2"
+            },
+            "three":{
+                "EmployeeID":"7",
+                "ManagerID":"5",
+                "FirstName":"Daniel",
+                "LastName":"Isacc",
+                "StoreID":"2"
+            },
+            "four":{
+                "EmployeeID":"8",
+                "ManagerID":"5",
+                "FirstName":"Kelly",
+                "LastName":"Aucoin",
+                "StoreID":"2"
+            }
+        },
+        "StoreThree":{
+            "one":{
+                "EmployeeID":"9",
+                "ManagerID":"Null",
+                "FirstName":"Ben",
+                "LastName":"Downey",
+                "StoreID":"3"
+            },
+            "two":{
+                "EmployeeID":"10",
+                "ManagerID":"Null",
+                "FirstName":"Arthur",
+                "LastName":"Alan",
+                "StoreID":"3"
+            },
+            "three":{
+                "EmployeeID":"11",
+                "ManagerID":"9",
+                "FirstName":"William",
+                "LastName":"Kyber",
+                "StoreID":"3"
+            },
+            "four":{
+                "EmployeeID":"12",
+                "ManagerID":"10",
+                "FirstName":"Neil",
+                "LastName":"Tyson",
+                "StoreID":"3"
+            },
+            "five":{
+                "EmployeeID":"13",
+                "ManagerID":"9",
+                "FirstName":"Axe",
+                "LastName":"Rod",
+                "StoreID":"3"
+            },
+            "six":{
+                "EmployeeID":"14",
+                "ManagerID":"10",
+                "FirstName":"Eli",
+                "LastName":"Brandbury",
+                "StoreID":"3"
+            }
+        }
+    }
+}
+
+
