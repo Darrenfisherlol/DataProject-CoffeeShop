@@ -19,10 +19,10 @@ From customer orders, store inventory, vendor shipments, and POS data integratio
 
 ### Stack & Tools
 
-HTML, CSS, & React - Front end of app
-Python - Data integration and initial processsing
-SQL - Data storage and processing
-GCP - Cloud platform bc I get $200 of free credits
+HTML, CSS, & React - Front end of app\
+Python - Data integration and initial processsing\
+SQL - Data storage and processing\
+GCP - Cloud platform bc I get $200 of free credits\
 
 ### Autor
 - Darren Fisher
