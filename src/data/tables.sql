@@ -1,11 +1,31 @@
 /*
---
 -- Connectin to GCP
+--
 --
 --
 */
 
 
+
+CREATE TABLE Coffee.RawSales( 
+    RawSalesID INT NOT NULL AUTO_INCREMENT,
+    CustomerFirstName VARCHAR(100),
+    CustomerLastName VARCHAR(100),
+    StoreName VARCHAR(100),
+    StoreAddress VARCHAR(100),
+    City VARCHAR(100),
+    State VARCHAR(2),
+    ZipCode INT,
+    EmployeeId INT,
+    ManagerId INT,
+    EmployeeFirstName VARCHAR(100),
+    EmployeeLastName VARCHAR(100),
+    StoreId INT,
+    ProductName VARCHAR(100),
+    Price float,
+    ProductId INT,
+    PRIMARY KEY(RawSalesID)
+  )
 
 
 CREATE TABLE Customer(
@@ -14,6 +34,7 @@ CREATE TABLE Customer(
     LastName VARCHAR(100) NOT NULL,
     PRIMARY KEY (CustomerID)
 )
+
 
 CREATE TABLE Store(
     StoreID INT NOT NULL AUTO_INCREMENT,
